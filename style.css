@@ -1,0 +1,61 @@
+.main_container
+{
+	width: 100% !important;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.jumbotron
+{
+	background: darkblue !important;
+	height: 500px !important;
+	margin-top: 50px !important;
+}
+span#bigText
+{
+	font-size: 25px !important;
+	margin-top: 30px !important;
+	color: white !important;
+}
+span#smallText
+{
+	font-size: 20px !important;
+	color: white;
+	opacity: .5;
+}
+button.button
+{
+	width: 130px;
+	background: white;
+	color: white;
+	font-size: 15px;
+	height: 60px;
+}
+button.button:hover
+{
+	background:white !important;
+	color: black;
+	transition: background 1s ease-out
+
+}
+button.outline
+{
+	background:transparent !important;
+	border:1px solid lightyellow;
+}
+span#qSection
+{
+	text-align: center;
+	font-size: 25px;
+	color: white;
+}
+div.priceSection,#priceSection
+{
+	text-align: right;
+	float: right;
+	padding-right: 30px;
+	color:white;
+}
+#aSection
+{
+	color: white;
+}
